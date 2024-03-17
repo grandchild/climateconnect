@@ -4,7 +4,7 @@ start:
 	$(info )
 	$(info -- Starting server --)
 	$(info )
-	python3 manage.py runserver
+	.venv/bin/python3 manage.py runserver
 
 celery:
 	$(info )
@@ -19,13 +19,13 @@ celery_beat:
 	celery -A climateconnect_main beat -l INFO
 
 shell:
-	python3 manage.py shell
+	.venv/bin/python3 manage.py shell
 
 install:
 	pdm install
 
 test:
-	python3 manage.py test
+	.venv/bin/python3 manage.py test
 
 docker:
 	docker-compose up -d
@@ -45,9 +45,9 @@ format:
 
 # Database migrations and test data creation:
 migrate:
-	python3 manage.py migrate
+	.venv/bin/python3 manage.py migrate
 
 migrations: migrate
 
 test-data:
-	python3 manage.py create_test_data --number_of_rows 4
+	.venv/bin/python3 manage.py create_test_data --number_of_rows 4
