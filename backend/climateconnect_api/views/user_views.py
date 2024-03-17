@@ -136,9 +136,12 @@ class SignUpView(APIView):
         full_name = user.first_name + "-" + user.last_name
         url_slug = create_unique_slug(full_name, user.id, UserProfile.objects)
         # Get location
-        source_language = Language.objects.get(
-            language_code=request.data["source_language"]
-        )
+        try:
+            source_language = Language.objects.get(
+                language_code=request.data.get("source_language", "de")
+            )
+        except Language.DoesNotExist:
+            source_language = Language.objects.get(language_code="de")
         user_profile = UserProfile.objects.create(
             user=user,
             location=location,
