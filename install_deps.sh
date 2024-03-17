@@ -7,5 +7,6 @@ yarn install
 popd
 
 pushd backend
+pdm venv create || true
 pdm install
 popd
