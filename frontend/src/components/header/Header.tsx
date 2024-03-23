@@ -367,11 +367,12 @@ export default function Header({
   ) => (ev.target.src = loadDefaultLogo(transparentHeader, isMediumScreen));
 
   const loadDefaultLogo = (transparentHeader?: boolean, isMediumScreen?: boolean): string => {
-    if (isMediumScreen) {
-      return transparentHeader ? "/images/logo_white_no_text.svg" : "/images/logo_no_text.svg";
-    } else {
-      return transparentHeader ? "/images/logo_white.png" : "/images/logo.png";
-    }
+    // if (isMediumScreen) {
+    //   return transparentHeader ? "/images/logo_white_no_text.svg" : "/images/logo_no_text.svg";
+    // } else {
+    //   return transparentHeader ? "/images/logo_white.png" : "/images/logo.png";
+    // }
+    return "/images/LogoHandInHand_Mid-300x300.png";
   };
 
   const logo = getLogo();
