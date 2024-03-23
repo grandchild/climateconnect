@@ -170,7 +170,7 @@ export default function Index() {
               className={classes.projectsSharedBox}
               isLoading={isLoading}
             />
-            <PitchBox h1ClassName={classes.h1ClassName} className={classes.pitchBox} />
+            {/*<PitchBox h1ClassName={classes.h1ClassName} className={classes.pitchBox} />*/}
             <div className={classes.signUpButtonContainer}>
               <Button
                 href={getLocalePrefix(locale) + "/signup"}
@@ -182,13 +182,13 @@ export default function Index() {
                 {texts.sign_up_and_make_a_change}
               </Button>
             </div>
-            <HubsBox isLoading={isLoading} hubs={elements.hubs} />
-            <JoinCommunityBox h1ClassName={classes.h1ClassName} />
+            {/*<HubsBox isLoading={isLoading} hubs={elements.hubs} />*/}
+            {/*<JoinCommunityBox h1ClassName={classes.h1ClassName} />*/}
             <OrganizationsSharedBox isLoading={isLoading} organizations={elements.organizations} />
             {process.env.DONATION_CAMPAIGN_RUNNING && (
               <DonationsBanner h1ClassName={classes.h1ClassName} />
             )}
-            <OurTeamBox h1ClassName={classes.h1ClassName} />
+            {/*<OurTeamBox h1ClassName={classes.h1ClassName} />*/}
             <StartNowBanner h1ClassName={classes.h1ClassName} />
           </div>
           {showScrollToTop && (
