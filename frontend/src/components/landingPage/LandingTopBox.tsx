@@ -8,9 +8,9 @@ import UserContext from "../context/UserContext";
 import AlternatingText from "../general/AlternatingText";
 import LightBigButton from "../staticpages/LightBigButton";
 
-const useStyles = makeStyles<Theme, { imageSource: string }>((theme) => ({
+const useStyles = makeStyles<Theme, { videoSource: string }>((theme) => ({
   imageContainer: (props) => ({
-    background: `url('/images/${props.imageSource}')`,
+    background: `url('/images/${props.videoSource}')`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     position: "relative",
@@ -30,7 +30,7 @@ const useStyles = makeStyles<Theme, { imageSource: string }>((theme) => ({
   img: {
     width: "100%",
     maxWidth: 1500,
-    visibility: "hidden",
+    // visibility: "hidden",
     [theme.breakpoints.down("sm")]: {
       width: "130%",
     },
@@ -182,12 +182,8 @@ export default function LandingTopBox() {
 
   const isNarrowScreen = useMediaQuery<Theme>(theme.breakpoints.down("sm"));
   const isVeryLargeScreen = useMediaQuery<Theme>(theme.breakpoints.up("lg"));
-  const imageSource = isNarrowScreen
-    ? "landing_image_small.jpg"
-    : isVeryLargeScreen
-    ? "landing_image_extra_large.jpg"
-    : "landing_image_extra_large.jpg";
-  const classes = useStyles({ imageSource: imageSource });
+  const videoSource = "signal-2024-02-16-192908.mp4";
+  const classes = useStyles({ videoSource: videoSource });
   const texts = getTexts({
     page: "landing_page",
     locale: locale,
@@ -197,11 +193,14 @@ export default function LandingTopBox() {
   return (
     <div>
       <div className={classes.imageContainer}>
-        <img
-          src={`/images/${imageSource}`}
+        <video
           alt={texts.landing_page_photo_alt}
-          className={classes.img}
-        />
+          // className={classes.img}
+          autoplay
+          muted
+          src={`/images/${videoSource}`}
+        >
+        </video>
       </div>
       <Container className={classes.textContainerWrapper}>
         <div className={classes.textContainer}>
