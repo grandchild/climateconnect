@@ -15,28 +15,48 @@ declare module "@mui/material/Button" {
   }
 }
 
+/* HiH colors from website: */
+// "primary":   "#F17E2B",
+// "secondary": "#9263A7",
+// "text":      "#5C5C5C",
+// "accent":    "#E83935",
+// "298c2d3":   "#F4E7D6",
+// "875f2cc":   "#9263A780",
+// "6fe6a9d":   "#1E5F8E",
+// "3a7a41c":   "#2F2F2F",
+// "5541122":   "#FFFFFF",
+
 // Create core theme so we can access spacing etc. when customizing components
 const coreTheme = createTheme({
   palette: {
     primary: {
-      main: "#207178",
-      light: "#66BCB5",
-      lightHover: "#7dd1ca",
-      extraLight: "#D7F7F5",
+      // main: "hsl(185, 58%, 30%)",
+      // light: "hsl(175, 39%, 57%)",
+      // lightHover: "hsl(175, 48%, 65%)",
+      // extraLight: "hsl(176, 67%, 91%)",
+      main: "hsl(25, 88%, 56%)",
+      light: "hsl(30, 89%, 67%)",
+      lightHover: "hsl(30, 93%, 70%)",
+      extraLight: "hsl(30, 94%, 91%)",
     },
     secondary: {
-      main: "#484848",
-      light: "#484848c2",
-      extraLight: "#EBEBEB",
+      // main: "#484848",
+      // light: "#484848c2",
+      // extraLight: "#EBEBEB",
+      main: "hsl(281, 28%, 52%)",
+      light: "hsla(281, 28%, 52%, 0.7)",
+      extraLight: "hsl(281, 28%, 95%)",
     },
     yellow: {
-      main: "#FFDE0A",
+      // main: "#FFDE0A",
+      main: "#9966aa",
     },
     background: {
       default: "#FFF",
     },
     action: {
-      selected: "#387077",
+      // selected: "#387077",
+      selected: "#F17E2B",
     },
     grey: {
       light: grey[100],
