@@ -195,7 +195,7 @@ export default function LandingTopBox() {
       <div className={classes.imageContainer}>
         <video
           // className={classes.img}
-          autoplay
+          autoPlay
           muted
           src={`/images/${videoSource}`}
         >
