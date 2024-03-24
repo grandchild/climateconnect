@@ -29,27 +29,27 @@ export default function getLandingPageTexts({ classes, isNarrowScreen }) {
         "Egal, ob du dich hauptberuflich oder ehrenamtlich für den Klimaschutz engagierst oder einfach nur wissen willst, was Du gegen den Klimawandel tun kannst - wir sind alle Teil von #teamclimate.",
     },
     landing_page_photo_alt: {
-      en: "Photo of earth from space at night with some connecting waypoints",
-      de: "Foto der Erde aus dem Weltraum bei Nacht mit einigen verbindenden Wegpunkten",
+      en: "",
+      de: "",
     },
     from_around_the_world: {
-      en: "from around the world",
-      de: "aus der ganzen Welt",
+      en: "from all of Germany",
+      de: "aus ganz Deutschland",
     },
     //html tag is break point for mobile. Should be roughly in the middle of the sentence
     landing_page_text: {
       en: (
         <>
-          Join the global climate action network to connect all
+          Join the action network to connect all
           {!isNarrowScreen ? <br /> : " "}
-          climate actors on our planet - the only one we have
+          supporters of democracy
         </>
       ),
       de: (
         <>
-          Komm ins globale Klimaschutz-Netzwerk, das alle
+          Komm ins globale Netzwerk, das alle
           {!isNarrowScreen ? <br /> : " "}
-          Klimaschutz-Akteure auf unserem Planeten verbindet
+          Demokratie-Unterstützer:innen verbindet
         </>
       ),
     },
@@ -137,9 +137,9 @@ export default function getLandingPageTexts({ classes, isNarrowScreen }) {
         </>
       ),
     },
-    climate_projects_with: {
-      en: "climate projects",
-      de: "Klimaprojekten",
+    democratic_projects_with: {
+      en: "democratic projects",
+      de: "Demokratieprojekten",
     },
     learn_from: {
       en: "Learn from",
