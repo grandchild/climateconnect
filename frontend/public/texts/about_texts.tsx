@@ -326,8 +326,8 @@ export default function getAboutTexts(classes) {
       de: "Idee Glühbirne",
     },
     this_is_climate_connect: {
-      en: "This is Climate Connect",
-      de: "Das ist Climate Connect",
+      en: "This is Hand-in-Hand Connect",
+      de: "Das ist Hand-in-Hand Connect",
     },
     a_free_nonprofit_climate_action_network: {
       en: (
