@@ -194,7 +194,6 @@ export default function LandingTopBox() {
     <div>
       <div className={classes.imageContainer}>
         <video
-          alt={texts.landing_page_photo_alt}
           // className={classes.img}
           autoplay
           muted
