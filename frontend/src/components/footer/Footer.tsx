@@ -120,31 +120,31 @@ const SmallFooter = ({
   const texts = getTexts({ page: "navigation", locale: locale });
   const socialMediaLinks = [
     {
-      href: "https://github.com/climateconnect/climateconnect",
+      href: "https://github.com/grandchild/climateconnect",
       icon: GitHubIcon,
       altText: "GitHub",
       isFooterIcon: true,
     },
     {
-      href: "https://twitter.com/ConnectClimate",
+      href: "https://twitter.com/diebrandmauer",
       icon: TwitterIcon,
       altText: "Twitter",
       isFooterIcon: true,
     },
     {
-      href: "https://www.instagram.com/climate_connect.earth/",
+      href: "https://www.instagram.com/wirsinddiebrandmauer/",
       icon: InstagramIcon,
       altText: "Instagram",
       isFooterIcon: true,
     },
     {
-      href: "https://www.facebook.com/climateconnect.earth/",
+      href: "https://www.facebook.com/people/Hand-in-Hand/61555662028267/",
       icon: FacebookIcon,
       altText: "Facebook",
       isFooterIcon: true,
     },
     {
-      href: "https://www.youtube.com/channel/UC10rPriptUxYilMfvt-8Tkw",
+      href: "https://www.youtube.com/@wirsinddiebrandmauer",
       icon: YouTubeIcon,
       altText: "Youtube",
       isFooterIcon: true,
