@@ -176,34 +176,34 @@ const SocialLinks = () => {
     <div className={classes.socialIconsContainer}>
       <Link
         target="_blank"
-        href="https://www.instagram.com/climate_connect.earth/"
+        href="https://www.instagram.com/wirsinddiebrandmauer/"
         underline="hover"
       >
         <InstagramIcon color="primary" className={classes.socialIcon} titleAccess="Instagram" />
       </Link>
       <Link
         target="_blank"
-        href="https://github.com/climateconnect/climateconnect"
+        href="https://github.com/grandchild/climateconnect"
         underline="hover"
       >
         <GitHubIcon className={classes.socialIcon} titleAccess="GitHub" />
       </Link>
-      <Link target="_blank" href="https://twitter.com/ConnectClimate" underline="hover">
+      <Link target="_blank" href="https://twitter.com/diebrandmauer" underline="hover">
         <TwitterIcon color="primary" className={classes.socialIcon} titleAccess="Twitter" />
       </Link>
-      <Link
+      {/*<Link
         target="_blank"
-        href="https://www.linkedin.com/company/climateconnect"
+        href="https://www.threads.net/@wirsinddiebrandmauer"
         underline="hover"
       >
         <LinkedInIcon color="primary" className={classes.socialIcon} titleAccess="LinkedIn" />
-      </Link>
-      <Link target="_blank" href="https://www.facebook.com/climateconnect.earth" underline="hover">
+      </Link>*/}
+      <Link target="_blank" href="https://www.facebook.com/people/Hand-in-Hand/61555662028267" underline="hover">
         <FacebookIcon color="primary" className={classes.socialIcon} titleAccess="Facebook" />
       </Link>
       <Link
         target="_blank"
-        href="https://www.youtube.com/channel/UC10rPriptUxYilMfvt-8Tkw"
+        href="https://www.youtube.com/@wirsinddiebrandmauer"
         underline="hover"
       >
         <YouTubeIcon color="primary" className={classes.socialIcon} titleAccess="YouTube" />
