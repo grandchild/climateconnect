@@ -14,6 +14,7 @@ import AddSummarySection from "./AddSummarySection";
 import CollaborateSection from "./CollaborateSection";
 import ProjectNameSection from "./ProjectNameSection";
 import { checkProjectDatesValid } from "../../../public/lib/dateOperations";
+import { indicateWrongLocation, isLocationValid } from "../../../public/lib/locationOperations";
 
 const useStyles = makeStyles((theme) => {
   return {
@@ -80,6 +81,7 @@ export default function EnterDetails({
   goToNextStep,
   goToPreviousStep,
   skillsOptions,
+  setMessage
 }) {
   const [open, setOpen] = useState({
     avatarDialog: false,
@@ -90,6 +92,8 @@ export default function EnterDetails({
     start_date: "",
     end_date: "",
   });
+  const locationInputRef = useRef(null);
+  const [locationOptionsOpen, setLocationOptionsOpen] = React.useState(false);
   const classes = useStyles(projectData);
   const { locale } = useContext(UserContext);
   const texts = getTexts({ page: "project", locale: locale, project: projectData });
@@ -156,6 +160,10 @@ export default function EnterDetails({
       });
       return false;
     }
+    if(!isLocationValid(project.loc)) {
+      indicateWrongLocation(locationInputRef, setLocationOptionsOpen, setMessage, texts);
+      return false;
+    }
     return true;
   };
 
@@ -174,6 +182,9 @@ export default function EnterDetails({
           <ProjectTimeAndPlaceSection
             projectData={projectData}
             handleSetProjectData={handleSetProjectData}
+            locationInputRef={locationInputRef}
+            locationOptionsOpen={locationOptionsOpen}
+            setLocationOptionsOpen={setLocationOptionsOpen}
             errors={errors}
           />
           <div className={classes.block}>
