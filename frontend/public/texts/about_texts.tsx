@@ -326,18 +326,18 @@ export default function getAboutTexts(classes) {
       de: "Idee Glühbirne",
     },
     this_is_climate_connect: {
-      en: "This is Hand-in-Hand Connect",
-      de: "Das ist Hand-in-Hand Connect",
+      en: "Work together — Hand-in-Hand",
+      de: "Vernetzt euch — Hand-in-Hand",
     },
     a_free_nonprofit_climate_action_network: {
       en: (
         <>
-          A <b>free, non-profit</b> climate action network.
+          A <b>free, non-profit</b> democratic action network.
         </>
       ),
       de: (
         <>
-          Ein <b>kostenloses, gemeinnütziges</b> Klimaschutznetzwerk
+          Ein <b>kostenloses, gemeinnütziges</b> Aktionsnetzwerk für Demokratie
         </>
       ),
     },

@@ -47,7 +47,7 @@ export default function getLandingPageTexts({ classes, isNarrowScreen }) {
       ),
       de: (
         <>
-          Komm ins globale Netzwerk, das alle
+          Komm ins überregionale Netzwerk, das alle
           {!isNarrowScreen ? <br /> : " "}
           Demokratie-Unterstützer:innen verbindet
         </>
@@ -58,12 +58,12 @@ export default function getLandingPageTexts({ classes, isNarrowScreen }) {
       de: "Entdecken",
     },
     explore_climate_projects: {
-      en: "Explore climate projects",
-      de: "Entdecke Klimaschutz-Projekte",
+      en: "Explore projects supporting democracy",
+      de: "Entdecke Demokratieförderprojekte",
     },
     find_a_climate_action_organization_and_get_involved: {
-      en: "Find a climate action organization and get involved",
-      de: "Finde eine Klimaschutzorganisation und bringe dich ein",
+      en: "Find a democratic action organization and get involved",
+      de: "Finde eine Demokratieförderorganisation und bringe dich ein",
     },
     find_a_climate_action_organization_and_get_involved_text: {
       en: `Find nonprofits, associations, companies, institutes, NGOs, local governments and other
@@ -127,13 +127,13 @@ export default function getLandingPageTexts({ classes, isNarrowScreen }) {
       en: (
         <>
           <span className={classes?.yellow}>Work together</span>, feel inspired and make a real
-          impact <span className={classes?.yellow}>on climate change!</span>
+          impact <span className={classes?.yellow}>on our democracy!</span>
         </>
       ),
       de: (
         <>
           <span className={classes?.yellow}>Arbeite zusammen</span>, lass dich inspirieren und nimm
-          echten Einfluss <span className={classes?.yellow}>auf den Klimawandel!</span>
+          echten Einfluss <span className={classes?.yellow}>auf unsere Demokratie!</span>
         </>
       ),
     },
