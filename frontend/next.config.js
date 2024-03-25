@@ -31,36 +31,36 @@ module.exports = withBundleAnalyzer({
   async redirects() {
     return [
       {
-        source: "/",
-        destination: "/browse",
+        source: '/',
+        destination: '/browse',
         has: [
           {
-            type: "cookie",
-            key: "auth_token",
+            type: 'cookie',
+            key: 'auth_token',
           },
         ],
         permanent: false,
       },
-      {
-        source: "/spenden",
-        destination: "/de/donate",
-        permanent: true,
-      },
-      {
-        source: "/spendenwald",
-        destination: "/de/donorforest",
-        permanent: true,
-      },
-      {
-        source: "/klimakuechen-erlangen",
-        destination: "/de/projects/klimakuechen?hubPage=erlangen",
-        permanent: true,
-      },
-      {
-        source: "/blog/weihnachten",
-        destination: "/post/es-ist-weihnachtszeit-auf-climate-connect",
-        permanent: true,
-      },
+      // {
+      //   source: '/spenden',
+      //   destination: '/de/donate',
+      //   permanent: true,
+      // },
+      // {
+      //   source: '/spendenwald',
+      //   destination: '/de/donorforest',
+      //   permanent: true,
+      // },
+      // {
+      //   source: '/klimakuechen-erlangen',
+      //   destination: '/de/projects/klimakuechen?hubPage=erlangen',
+      //   permanent: true,
+      // },
+      // {
+      //   source: '/blog/weihnachten',
+      //   destination: '/post/es-ist-weihnachtszeit-auf-climate-connect',
+      //   permanent: true,
+      // },
     ];
   },
 });

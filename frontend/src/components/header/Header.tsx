@@ -219,7 +219,7 @@ const getLinks = (path_to_redirect, texts, isLocationHub) => [
     href: "/about",
     text: texts.about,
     iconForDrawer: InfoIcon,
-    showStaticLinksInDropdown: true,
+    showStaticLinksInDropdown: false,
     hideOnStaticPages: true,
   },
   {
