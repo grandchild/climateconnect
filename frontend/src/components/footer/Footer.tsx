@@ -2,6 +2,7 @@ import { Box, Link, Theme, useMediaQuery } from "@mui/material";
 import makeStyles from "@mui/styles/makeStyles";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import FavoriteIcon from "@mui/icons-material/Favorite";
+import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import GitHubIcon from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -72,10 +73,9 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: theme.spacing(0.5),
     marginRight: theme.spacing(0.5),
   },
-  earth: {
-    color: "blue",
+  gov: {
+    color: "hsl(225,33%,50%)",
     marginLeft: theme.spacing(1),
-    height: 20,
   },
   link: {
     marginRight: theme.spacing(1),
@@ -203,7 +203,7 @@ const MadeWithLoveForEarthSign = () => {
   return (
     <>
       Made with <FavoriteIcon className={classes.heart} /> for{" "}
-      <img className={classes.earth} src="/images/earth.svg" alt={texts.picture_of_our_earth} />
+      <AccountBalanceIcon className={classes.gov}/>
     </>
   );
 };

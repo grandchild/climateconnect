@@ -123,7 +123,6 @@ const useStyles = makeStyles((theme) => ({
   gov: {
     color: "hsl(225,33%,50%)",
     marginLeft: theme.spacing(1),
-    // height: 20,
   },
   newsletterSubscribeButton: {
     marginTop: theme.spacing(2),
