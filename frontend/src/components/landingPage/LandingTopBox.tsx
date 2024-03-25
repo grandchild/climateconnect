@@ -16,6 +16,7 @@ const useStyles = makeStyles<Theme, { videoSource: string }>((theme) => ({
     position: "relative",
     backgroundPosition: "0px -12vw",
     maxHeight: "80vh",
+    overflow: "hidden",
     [theme.breakpoints.down("lg")]: {
       backgroundPosition: "0px -9vw",
     },
@@ -29,7 +30,7 @@ const useStyles = makeStyles<Theme, { videoSource: string }>((theme) => ({
   }),
   img: {
     width: "100%",
-    maxWidth: 1500,
+    // maxWidth: 1500,
     // visibility: "hidden",
     [theme.breakpoints.down("sm")]: {
       width: "130%",
@@ -194,7 +195,7 @@ export default function LandingTopBox() {
     <div>
       <div className={classes.imageContainer}>
         <video
-          // className={classes.img}
+          className={classes.img}
           autoPlay
           muted
           loop
