@@ -27,7 +27,7 @@ export default function LoadingContainer({ headerHeight, footerHeight }) {
   return (
     <div className={classes.spinnerContainer}>
       <div>
-        <img className={classes.spinner} src="/images/logo.png" alt="Climate Connect logo" />
+        <img className={classes.spinner} src="/images/LogoHandInHand_Mid-300x300.png" alt="Hand-in-Hand logo" />
       </div>
       <Typography component="div">{texts.loading_and_waiting}</Typography>
     </div>
