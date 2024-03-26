@@ -13,13 +13,13 @@ export default function getTutorialTexts({ hubName, classes, locale }) {
       de: "Tutorial",
     },
     welcome_to_climate_connect: {
-      en: "Welcome to Climate Connect",
-      de: "Willkommen bei Climate Connect",
+      en: "Welcome to Hand-in-Hand Connect",
+      de: "Willkommen bei Hand-in-Hand Connect",
     },
     tutorial_welcome_to_climate_connect_text_first_part: {
-      en: "Climate Connect is a free collaboration platform for people taking climate action.",
+      en: "Hand-in-Hand Connect is a free collaboration platform for people taking democratic action.",
       de:
-        "Climate Connect ist eine kostenlose Kooperationsplattform für Menschen, die sich für Klimaschutz einsetzen.",
+        "Hand-in-Hand Connect ist eine kostenlose Kooperationsplattform für Menschen, die sich für Demokratie einsetzen.",
     },
     tutorial_welcome_to_climate_connect_text_last_part: {
       en: "Want to discover all the things you can do here?",
@@ -30,9 +30,9 @@ export default function getTutorialTexts({ hubName, classes, locale }) {
       de: "Lass uns mit einer Frage starten",
     },
     tutorial_lets_start_with_a_question_text: {
-      en: `Are you already involved in climate action, for example as a volunteer or in your
+      en: `Are you already involved in democratic action, for example as a volunteer or in your
       professional life?`,
-      de: `Engagierst du dich bereits ehrenamtlich oder beruflich für den Klimaschutz?`,
+      de: `Engagierst du dich bereits ehrenamtlich oder beruflich für die Demokratie?`,
     },
     no_but_i_would_like_to: {
       en: "No, but I'd like to",
@@ -43,28 +43,30 @@ export default function getTutorialTexts({ hubName, classes, locale }) {
       de: "Willkommen auf der Browse-Seite",
     },
     great_that_you_are_already_a_climate_hero: {
-      en: "Great that you're already a climate hero!",
-      de: "Toll, dass du dich schon für unser Klima engagierst!",
+      en: "Great that you're already a democracy hero!",
+      de: "Toll, dass du dich schon für unser Demokratie engagierst!",
     },
     here_you_can_browse: {
-      en: `Here you can browse through all climate projects created by Climate Connect users. You
+      en: `Here you can browse through all democratic projects created by Hand-in-Hand Connect users. You
       can share your own (later 😉) or find the right people to connect with to multiply
       your impact.`,
-      de: `Hier kannst du alle Projekte durchstöbern, die von Climate Connect Nutzern erstellt worden sind. Du kannst hier dein eigenes Projekt teilen oder die richtigen Leute finden, um deinen Einfluss auf das Klima zu vergrößern.`,
+      de: `Hier kannst du alle Projekte durchstöbern, die von Hand-in-Hand Connect Nutzern erstellt
+      worden sind. Du kannst hier dein eigenes Projekt teilen oder die richtigen Leute finden, um deinen
+      Kampf für die Demokratie zu verstärken.`,
     },
     tutorial_welcome_to_the_browse_page_text_for_answer_soon: {
       en: `That's exciting, you have come to the right place to get started! 🌎 We need smart
-      people like you to work together to solve this crisis. On this page you can browse
-      through all climate projects created by Climate Connect members.`,
+      people like you to work together to fight for democracy. On this page you can browse
+      through all projects created by Hand-in-Hand Connect members.`,
       de: `Das ist wunderbar, dann bist du bei uns genau richtig! 🌎 Wir brauchen kluge
-      Menschen wie dich, um gemeinsam an der Lösung der Klimakrise zu arbeiten. Auf dieser Seite kannst du
-      alle Klimaprojekte finden, die von Climate Connect Mitgliedern erstellt wurden.`,
+      Menschen wie dich, um gemeinsam für unsere Demokratie zu kämpfen. Auf dieser Seite kannst du
+      alle Projekte finden, die von Hand-in-Hand Connect Mitgliedern erstellt wurden.`,
     },
     tutorial_welcome_to_the_browse_page_text_for_answer_false: {
       en: `No worries, here is the right place to start off! On this page you can browse through
-      all climate projects created by Climate Connect members.`,
+      all projects created by Hand-in-Hand Connect members.`,
       de: `Keine Sorge, hier ist der richtige Ort, um anzufangen! Auf dieser Seite findest du
-      alle Klimaprojekte, die von Climate Connect Mitgliedern erstellt wurden.`,
+      alle Projekte, die von Hand-in-Hand Connect Mitgliedern erstellt wurden.`,
     },
     welcome_to_the_hub_page: {
       en: `Welcome to the ${hubName} hub page!`,
@@ -73,8 +75,8 @@ export default function getTutorialTexts({ hubName, classes, locale }) {
     here_you_can_find_projects_in_hub: {
       en: (
         <>
-          Here you can find climate action projects in the {hubName} hub that were created by
-          Climate Connect members. You can find an overview of all projects on the{" "}
+          Here you can find democratic action projects in the {hubName} hub that were created by
+          Hand-in-Hand Connect members. You can find an overview of all projects on the{" "}
           <Link
             href={getLocalePrefix(locale) + "/browse"}
             target="_blank"
@@ -88,7 +90,7 @@ export default function getTutorialTexts({ hubName, classes, locale }) {
       ),
       de: (
         <>
-          Hier kannst du alle Projekte von Climate Connect Nutzer*innen im {hubName} Hub finden.
+          Hier kannst du alle Projekte von Hand-in-Hand Connect Nutzer*innen im {hubName} Hub finden.
           Einen Überblick über alle Projekte erhälst du auf der{" "}
           <Link
             href={getLocalePrefix(locale) + "/browse"}
@@ -104,15 +106,15 @@ export default function getTutorialTexts({ hubName, classes, locale }) {
     },
     welcome_to_the_hub_page_text_for_answer_soon_first_part: {
       en: `That's exciting, you have come to the right place to get started! 🌎 We need smart
-      people like you to work together to solve this crisis.`,
+      people like you to work together to fight for democracy.`,
       de: `Das ist wunderbar, hier ist der richtige Ort, um anzufangen! 🌎 Wir brauchen kluge
-      Menschen wie dich, um gemeinsam an der Lösung der Klimakrise zu arbeiten.`,
+      Menschen wie dich, um gemeinsam für unsere Demokratie zu kämpfen.`,
     },
     welcome_to_the_hub_page_text_for_answer_soon_second_part: {
       en: (
         <>
-          Here you can find climate action projects in the {hubName} field that were created by
-          Climate Connect members. You can find an overview of all projects on the{" "}
+          Here you can find democratic action projects in the {hubName} field that were created by
+          Hand-in-Hand Connect members. You can find an overview of all projects on the{" "}
           <Link
             href={getLocalePrefix(locale) + "/browse"}
             target="_blank"
@@ -126,7 +128,7 @@ export default function getTutorialTexts({ hubName, classes, locale }) {
       ),
       de: (
         <>
-          Hier kannst du alle Projekte von Climate Connect Nutzern im Bereich {hubName} finden.
+          Hier kannst du alle Projekte von Hand-in-Hand Connect Nutzern im Bereich {hubName} finden.
           Einen Überblick über alle Projekte erhälst du auf der{" "}
           <Link
             href={getLocalePrefix(locale) + "/browse"}
@@ -147,8 +149,8 @@ export default function getTutorialTexts({ hubName, classes, locale }) {
     welcome_to_the_hub_page_text_for_answer_false_second_part: {
       en: (
         <>
-          On this page you can find climate action projects in the {hubName} field that were created
-          by Climate Connect members. You can find an overview of all projects on the{" "}
+          On this page you can find democratic action projects in the {hubName} field that were created
+          by Hand-in-Hand Connect members. You can find an overview of all projects on the{" "}
           <Link
             href={getLocalePrefix(locale) + "/browse"}
             target="_blank"
@@ -162,7 +164,7 @@ export default function getTutorialTexts({ hubName, classes, locale }) {
       ),
       de: (
         <>
-          Auf dieser Seite findest du Klimaschutzprojekte im Bereich {hubName}, die von Climate
+          Auf dieser Seite findest du Demokratieprojekte im Bereich {hubName}, die von Hand-in-Hand
           Connect Nutzern erstellt wurden. Auf der{" "}
           <Link
             href={getLocalePrefix(locale) + "/browse"}
@@ -181,20 +183,21 @@ export default function getTutorialTexts({ hubName, classes, locale }) {
       de: "Die Projektkarten!",
     },
     the_project_cards_text_for_answer_true: {
-      en: `Find interesting climate projects to collaborate with or get inspired by! Hover over a
+      en: `Find interesting projects to collaborate with or get inspired by! Hover over a
       project card to see a short summary of what the project is about.`,
       de: `Finde interessante Projekte, um mitzumachen, zusammenarbeiten oder sich von ihnen inspirieren zu lassen.
 	    Bewege den Mauszeiger über eine Vorschaukarte, um eine kurze Zusammenfassung des Projekts zu erhalten.`,
     },
     the_project_cards_text_for_answer_soon: {
-      en: `Find interesting climate projects to join or maybe even get inspired to do something
+      en: `Find interesting projects to join or maybe even get inspired to do something
       similar at your location! Hover over a card to see a short summary of what the project
       is about.`,
-      de: `Finde interessante Projekte, um mitzumachen, zusammenarbeiten oder dich sogar von ihnen inspirieren zu lassen, um etwas Ähnliches in deiner Umgebung zu starten!
+      de: `Finde interessante Projekte, um mitzumachen, zusammenarbeiten oder dich sogar von ihnen inspirieren zu
+      lassen, um etwas Ähnliches in deiner Umgebung zu starten!
 	    Bewege den Mauszeiger über eine Karte, um eine kurze Zusammenfassung des Projekts zu erhalten.`,
     },
     the_project_cards_text_for_answer_false: {
-      en: `Find interesting climate projects to join or maybe even get inspired to do something
+      en: `Find interesting projects to join or maybe even get inspired to do something
       similar at your location! Hover over a card to see a short summary of what the project
       is about.`,
       de: `Finde interessante Projekte zum Mitmachen oder lass dich inspirieren, etwas
@@ -232,14 +235,14 @@ export default function getTutorialTexts({ hubName, classes, locale }) {
       de: "Tabs",
     },
     tabs_tutorial_text: {
-      en: `Click on another tab to see all active organizations or members of Climate Connect.
-      These are the faces behind the projects and the climate actors we strive to empower.`,
-      de: `Klicke auf ein anderes Tab, um alle aktiven Organisationen oder Nutzer von Climate Connect zu sehen.
-      Dies sind die Gesichter hinter den Projekten und die Klimaschützer:innen, die wir stärken möchten.`,
+      en: `Click on another tab to see all active organizations or members of Hand-in-Hand Connect.
+      These are the faces behind the projects and the democratic actors we strive to empower.`,
+      de: `Klicke auf ein anderes Tab, um alle aktiven Organisationen oder Nutzer von Hand-in-Hand Connect zu sehen.
+      Dies sind die Gesichter hinter den Projekten und die Demokratieschützer:innen, die wir stärken möchten.`,
     },
     hubs_tutorial_headline: {
-      en: "Climate action hubs",
-      de: "Klimaschutz Hubs",
+      en: "democratic action campaigns",
+      de: "Kampagnen fuer Demokratie",
     },
     hubs_tutorial_text: {
       en: `Find plentiful information and effective and interesting projects in a specific field by clicking on one of the links to our hubs.`,
@@ -261,9 +264,9 @@ export default function getTutorialTexts({ hubName, classes, locale }) {
       de: "Möchtest du dich in diesem Bereich engagieren?",
     },
     want_to_get_involved_in_this_sector_text: {
-      en: `By clicking on "Show projects" you directly get to the projects from this sector that have been shared by Climate Connect users.`,
+      en: `By clicking on "Show projects" you directly get to the projects from this sector that have been shared by Hand-in-Hand Connect users.`,
       de: `Wenn du auf "Projekte anzeigen" klickst, gelangst du direkt zu den Projekten aus diesem Bereich,
-      die von Climate Connect Nutzern geteilt wurden.`,
+      die von Hand-in-Hand Connect Nutzern geteilt wurden.`,
     },
     click_a_project_headline: {
       en: "Click a project",
@@ -307,9 +310,9 @@ export default function getTutorialTexts({ hubName, classes, locale }) {
     },
     contact_button_tutorial_text: {
       en: `Get in contact with the project creator directly in a private chat. Ask them how to get involved or any other question or suggestion you might have.
-      Don't hesitate to use this button frequently, working together is the only way we're going to solve the climate crisis!`,
+      Don't hesitate to use this button frequently, working together is the only way we're going to succeed fighting for our democracy!`,
       de: `Nehme in einem privaten Chat direkt Kontakt mit der/dem Ersteller*in des Projekts auf. Frage sie oder ihn, wie du dich beteiligen kannst, oder jede andere Frage oder Anregung, die du hast.
-      Zögere nicht, diesen Button häufig zu benutzen, denn nur gemeinsam können wir die Klimakrise lösen!`,
+      Zögere nicht, diesen Button häufig zu benutzen, denn nur gemeinsam können wir wirkunsvoll für unsere Demokratie kämpfen!`,
     },
     meet_and_discuss_tutorial_headline: {
       en: "Meet the team and discuss the project",
@@ -322,50 +325,50 @@ export default function getTutorialTexts({ hubName, classes, locale }) {
       Registerkarte "Team" findest du außerdem heraus, wer an dem Projekt arbeitet.`,
     },
     are_you_ready_tutorial_headline: {
-      en: "Are you ready to join team climate?",
-      de: "Bist du bereit Teil des Team Klima zu sein?",
+      en: "Are you ready to join team democracy?",
+      de: "Bist du bereit Teil des Team Demokratie zu sein?",
     },
     are_you_ready_tutorial_text_for_answer_true: {
-      en: `Sign up to Climate Connect for free to join our international community of people
-      working together to solve the climate crisis. Share you own organization and/or
+      en: `Sign up to Hand-in-Hand Connect for free to join our community of people
+      working together to fight for our democracy. Share you own organization and/or
       projects to get recognition, find new team members and spread your project worldwide.`,
-      de: `Melde dich kostenlos bei Climate Connect an und werde Teil unserer internationalen Gemeinschaft von Menschen,
-      die gemeinsam an der Lösung der Klimakrise arbeiten. Teile deine eigene Organisation und/oder
+      de: `Melde dich kostenlos bei Hand-in-Hand Connect an und werde Teil unserer überregionalen Gemeinschaft von Menschen,
+      die gemeinsam für unsere Demokratie kämpfen. Teile deine eigene Organisation und/oder
       Projekte, um Anerkennung zu erhalten, neue Teammitglieder zu finden und dein Projekt weltweit zu verbreiten.`,
     },
     are_you_ready_tutorial_text_for_answer_soon: {
-      en: `Sign up to Climate Connect for free to join our international community of people
-      working together to solve the climate crisis.
+      en: `Sign up to Hand-in-Hand Connect for free to join our community of people
+      working together to fight for our democracy.
       You'll be able to find the right project to work on with your skillset to make the
-      biggest possible difference against climate change!`,
-      de: `Melde dich kostenlos bei Climate Connect an und werde Teil unserer internationalen Gemeinschaft von Menschen,
-      die gemeinsam an der Lösung der Klimakrise arbeiten. Du wirst das richtige Projekt für dich finden, zu dem du mit deinen Fähigkeiten beitragen kannst und
-	    so den größtmöglichen Unterschied im Kampf gegen den Klimawandel zu machen!`,
+      biggest possible difference against hate!`,
+      de: `Melde dich kostenlos bei Hand-in-Hand Connect an und werde Teil unserer überregionalen Gemeinschaft von Menschen,
+      die gemeinsam für unsere Demokratie kämpfen. Du wirst das richtige Projekt für dich finden, zu dem du mit deinen Fähigkeiten beitragen kannst und
+	    so den größtmöglichen Unterschied im Kampf gegen Hass zu machen!`,
     },
     are_you_ready_tutorial_text_for_answer_false_first_part: {
-      en: "Do you agree that we can only solve the climate crisis through collaboration?",
-      de: "Bist du auch der Meinung, dass wir die Klimakise nur gemeinsam lösen können?",
+      en: "Do you agree that we can only fight for our democracy through collaboration?",
+      de: "Bist du auch der Meinung, dass wir nur gemeinsam für unsere Demokratie kämpfen können?",
     },
     are_you_ready_tutorial_text_for_answer_false_last_part: {
-      en: `Sign up to Climate Connect for free to join our international community of people
-      working together to solve the climate crisis`,
-      de: `Melde dich kostenlos bei Climate Connect an und werde Teil unserer internationalen Community von Menschen,
-      die gemeinsam an der Lösung der Klimakrise arbeiten.`,
+      en: `Sign up to Hand-in-Hand Connect for free to join our community of people
+      working together to fight for our democracy`,
+      de: `Melde dich kostenlos bei Hand-in-Hand Connect an und werde Teil unserer überregionalen Community von Menschen,
+      die gemeinsam für unsere Demokratie kämpfen.`,
     },
     lets_make_an_impact_together_tutorial_headline: {
       en: "Let's make an impact together!",
       de: "Lass uns gemeinsam etwas bewirken!",
     },
     lets_make_an_impact_together_tutorial_text: {
-      en: `Great to have you on team climate. We would love to help you with any problem related to
-      climate action! Thomas, our community manager will gladly connect you to the right people
+      en: `Great to have you on team democracy. We would love to help you with any problem related to
+      democratic action! Our community managers will gladly connect you to the right people
       in the community!`,
-      de: `Super, dich im Team Klima dabei zu haben. Wir helfen dir gerne bei allen Problemen zum Klimaschutz.
-	    Thomas, unser Community-Manager, leitet dich gerne an die richtigen Leute in der Community weiter!`,
+      de: `Super, dich im Team Demokratie dabei zu haben. Wir helfen dir gerne bei allen Problemen zu Aktionen.
+	    Unsere Community-Manager:innen leiten dich gerne an die richtigen Leute in der Community weiter!`,
     },
     message_thomas: {
-      en: "Message Thomas",
-      de: "Thomas schreiben",
+      en: "Message community managers",
+      de: "Community-Manager:innen schreiben",
     },
   };
 }
