@@ -7,6 +7,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 require('dotenv').config();
 
 module.exports = withBundleAnalyzer({
+  productionBrowserSourceMaps: true,
   // Read set variables from `.env` file
   env: pick(process.env, [
     'API_HOST',
