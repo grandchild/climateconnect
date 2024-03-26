@@ -222,11 +222,14 @@ const SiteLinks = ({ texts, locale }) => {
         </Typography>
         <div className={classes.links}>
           <FooterLink href={getLocalePrefix(locale) + "/faq"}>{texts.faq}</FooterLink>
-          <FooterLink href={getLocalePrefix(locale) + "/donate"}>{texts.donate}</FooterLink>
-          <FooterLink href={getLocalePrefix(locale) + "/about"}>{texts.about}</FooterLink>
+          {/*<FooterLink href={getLocalePrefix(locale) + "/donate"}>{texts.donate}</FooterLink>*/}
+          {/*<FooterLink href={getLocalePrefix(locale) + "/about"}>{texts.about}</FooterLink>*/}
+          {/*
           {locale === "de" && (
             <FooterLink href={getLocalePrefix(locale) + "/verein"}>{texts.association}</FooterLink>
           )}
+          */}
+          {/*
           <FooterLink
             href={
               locale === "de"
@@ -236,6 +239,7 @@ const SiteLinks = ({ texts, locale }) => {
           >
             {texts.jobs}
           </FooterLink>
+          */}
         </div>
       </div>
 
@@ -244,10 +248,10 @@ const SiteLinks = ({ texts, locale }) => {
           {texts.contact}
         </Typography>
         <div className={classes.links}>
-          <FooterLink href="mailto:contact@climateconnect.earth">
-            contact@climateconnect.earth
+          <FooterLink href="mailto:mitmachen@gmeinsam-hand-in-hand.org">
+            mitmachen@gmeinsam-hand-in-hand.org
           </FooterLink>
-          <FooterLink href="tel:+4915730101056">+4915730101056</FooterLink>
+          {/*<FooterLink href="tel:+4915730101056">+4915730101056</FooterLink>*/}
           <FeedbackButton justLink>
             <Typography className={classes.li}>{texts.leave_feedback}</Typography>
           </FeedbackButton>
