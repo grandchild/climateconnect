@@ -337,7 +337,7 @@ export default function getAboutTexts(classes) {
       ),
       de: (
         <>
-          Ein <b>kostenloses, gemeinnütziges</b> Aktionsnetzwerk für Demokratie
+          Ein <b>kostenloses, gemeinnütziges</b> Aktionsnetzwerk für Demokratie.
         </>
       ),
     },
@@ -355,38 +355,38 @@ export default function getAboutTexts(classes) {
         <>
           For <b>everyone</b> who contributes or
           <br />
-          wants to contribute to solving the
+          wants to contribute to fighting for
           <br />
-          climate crisis.
+          our democracy.
         </>
       ),
       de: (
         <>
-          Für <b>alle</b>, die zur Lösung der
+          Für <b>alle</b>, die beim Kampf
           <br />
-          Klimakrise beitragen oder
+          für unsere Demokratie
           <br />
-          dazu beitragen möchten
+          beitragen möchten
         </>
       ),
     },
     enabling_global_and_locale_collaboration_and_knowledge_sharing: {
       en: (
         <>
-          Enabling global and local
+          Enabling local, regional and national
           <br />
           <b>collaboration and knowledge sharing</b>
           <br />
-          in climate action.
+          in democratic action.
         </>
       ),
       de: (
         <>
-          Förderung von globaler und lokaler
+          Förderung von lokaler, regionaler und
           <br />
-          Zusammenarbeit und Wissensaustausch
+          überregionaler Zusammenarbeit,
           <br />
-          im Klimaschutz.
+          Aktivismus und Wissensaustausch.
         </>
       ),
     },

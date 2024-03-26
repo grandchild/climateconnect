@@ -66,10 +66,10 @@ export default function getLandingPageTexts({ classes, isNarrowScreen }) {
       de: "Finde eine Demokratieförderorganisation und bringe dich ein",
     },
     find_a_climate_action_organization_and_get_involved_text: {
-      en: `Find nonprofits, associations, companies, institutes, NGOs, local governments and other
-      types of organizations taking climate action!`,
-      de: `Finde Non-Profit-Organisationen, Verbände, Unternehmen, Institute, Nicht-Regierungs-Organisationen, lokale Regierungen und
-      andere Arten von Organisationen, die sich für den Klimaschutz einseten!`,
+      en: `Find groups, associations, companies, institutes, NGOs, non-profits, local governments and other
+      types of organizations taking democratic action!`,
+      de: `Finde Gruppen, Verbände, Unternehmen, Institute, Nicht-Regierungs-Organisationen, Non-Profit-Organisationen, lokale Regierungen und
+      andere Arten von Organisationen, die sich für unsere Demokratie einseten!`,
     },
     find_a_climate_action_organization_and_get_involved_additional_text: {
       en: `You can directly contact the organization's representative to exchange knowledge,

@@ -531,13 +531,14 @@ export default function getProjectTexts({ project, user, url_slug, locale, creat
       de: "Nächster Schritt",
     },
     climate_action_projects_shared_by_climate_connect_users: {
-      en: "Climate action projects shared by Climate Connect users",
-      de: "Klimaschutzprojekte, die Climate Connect Nutzer*innen geteilt haben",
+      en: "Democratic projects shared by Hand-in-Hand Connect users",
+      de: "Demokratieprojekte, die Hand-in-Hand Connect Nutzer:innen geteilt haben",
     },
     climate_action_projects_shared_by_climate_connect_users_text: {
-      en: `Find the best climate change solutions from around the world. Get involved, share your own
+      en: `Find the best democratic campaigns from around the country. Get involved, share your own
       solutions or spread effective projects and ideas to your location.`,
-      de: `Finde spannende Klimaprojekte aus aller Welt. Beteilige dich, teile deine eigenen Lösungen oder setze effektive Projekte auch bei dir vor Ort um.`,
+      de: `Finde spannende Demokratie-Kampagnen aus allen Regionen. Beteilige dich, teile deine
+      eigenen Lösungen oder setze effektive Projekte auch bei dir vor Ort um.`,
     },
     show_all_projects: {
       en: "Show all projects",
